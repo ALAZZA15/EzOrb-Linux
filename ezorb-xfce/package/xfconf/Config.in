@@ -1,0 +1,5 @@
+config BR2_PACKAGE_XFCONF
+	bool "xfconf"
+	depends on BR2_PACKAGE_LIBXFCE4UTIL
+	help
+	  Configuration storage system for XFCE.

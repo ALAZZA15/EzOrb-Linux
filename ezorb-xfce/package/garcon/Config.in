@@ -1,0 +1,5 @@
+config BR2_PACKAGE_GARCON
+	bool "garcon"
+	depends on BR2_PACKAGE_LIBXFCE4UI
+	help
+	  Menu library for XFCE.

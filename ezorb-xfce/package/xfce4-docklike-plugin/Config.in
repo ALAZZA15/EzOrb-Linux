@@ -1,0 +1,6 @@
+config BR2_PACKAGE_XFCE4_DOCKLIKE_PLUGIN
+	bool "xfce4-docklike-plugin"
+	depends on BR2_PACKAGE_LIBXFCE4UI
+	depends on BR2_PACKAGE_XFCE4_PANEL
+	help
+	  Docklike taskbar for XFCE panel.

@@ -1,0 +1,6 @@
+config BR2_PACKAGE_XFCE4_TERMINAL
+	bool "xfce4-terminal"
+	depends on BR2_PACKAGE_LIBXFCE4UI
+	select BR2_PACKAGE_VTE
+	help
+	  Terminal emulator for XFCE.

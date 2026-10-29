@@ -1,0 +1,7 @@
+config BR2_PACKAGE_XFCE4_SETTINGS
+	bool "xfce4-settings"
+	depends on BR2_PACKAGE_LIBXFCE4UI
+	depends on BR2_PACKAGE_GARCON
+	depends on BR2_PACKAGE_EXO
+	help
+	  Settings manager for XFCE.

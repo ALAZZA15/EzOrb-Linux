@@ -1,0 +1,5 @@
+config BR2_PACKAGE_EXO
+	bool "exo"
+	depends on BR2_PACKAGE_LIBXFCE4UI
+	help
+	  Helper library for XFCE applications.

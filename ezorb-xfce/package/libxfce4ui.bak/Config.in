@@ -1,0 +1,7 @@
+config BR2_PACKAGE_LIBXFCE4UI
+	bool "libxfce4ui"
+	depends on BR2_PACKAGE_LIBXFCE4UTIL
+	depends on BR2_PACKAGE_XFCONF
+	select BR2_PACKAGE_GTK3
+	help
+	  Widget library for XFCE.

@@ -1,0 +1,6 @@
+config BR2_PACKAGE_LIBXFCE4UTIL
+	bool "libxfce4util"
+	help
+	  Basic utility library for XFCE.
+	  This is a non-validating library for
+	  configuration files.

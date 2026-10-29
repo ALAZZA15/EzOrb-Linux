@@ -1,0 +1,10 @@
+config BR2_PACKAGE_XFCE4_SESSION
+	bool "xfce4-session"
+	depends on BR2_PACKAGE_LIBXFCE4UI
+	depends on BR2_PACKAGE_XFCONF
+	select BR2_PACKAGE_DBUS
+	select BR2_PACKAGE_DBUS_GLIB
+	select BR2_PACKAGE_XLIB_LIBSM
+	select BR2_PACKAGE_XLIB_LIBICE
+	help
+	  Session manager for XFCE.

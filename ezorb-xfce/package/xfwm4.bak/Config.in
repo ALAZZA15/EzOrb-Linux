@@ -1,0 +1,9 @@
+config BR2_PACKAGE_XFWM4
+	bool "xfwm4"
+	depends on BR2_PACKAGE_LIBXFCE4UI
+	depends on BR2_PACKAGE_XFCONF
+	select BR2_PACKAGE_LIBWNCK3
+	select BR2_PACKAGE_XLIB_LIBXCOMPOSITE
+	select BR2_PACKAGE_XLIB_LIBXDAMAGE
+	help
+	  Window manager for XFCE.

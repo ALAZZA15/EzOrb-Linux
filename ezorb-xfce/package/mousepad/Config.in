@@ -1,0 +1,5 @@
+config BR2_PACKAGE_MOUSEPAD
+	bool "mousepad"
+	depends on BR2_PACKAGE_LIBXFCE4UI
+	help
+	  Simple text editor for XFCE.
